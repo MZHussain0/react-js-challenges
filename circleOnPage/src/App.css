@@ -1,0 +1,14 @@
+.app {
+  height: 100vh;
+  cursor: pointer;
+  width: 100vw;
+}
+
+.point {
+  display: inline-block;
+  position: absolute;
+  border-radius: 50%;
+  height: 5px;
+  width: 5px;
+  background: red;
+}
