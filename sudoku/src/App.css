@@ -1,0 +1,29 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(9, 1fr);
+  font-weight: bold;
+  color: blueviolet;
+}
+
+.cell {
+  border: 1px dashed black;
+  padding: 1rem;
+}
+
+.cell input {
+  width: 30px;
+  height: 30px;
+}
+
+.cta {
+  background: #000;
+  color: antiquewhite;
+  margin-top: 2rem;
+}
